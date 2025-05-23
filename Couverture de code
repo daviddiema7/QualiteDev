@@ -1,0 +1,6 @@
+1.Ce résultat nous montre quelle partie du code a été utiliser durant le test.
+Si il y'a un faible pourcentage de ligne ou de branche qui sont couverte sa veut dire qu'il s'agit de zone non tester
+et si c'est l'iverse sa veut que la zone est tester
+
+2. Il y'a plusieurs solution comme ajouter une couverture du code supérieur pour améliorer la robustesse
+-Ajouter des test conditionelle  pour toute les branche par exemple on peut tester la division par 0
