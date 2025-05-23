@@ -20,4 +20,8 @@ public class CalculatriceTest {
     public void testDivByZero() {
         assertThrows(ArithmeticException.class, () -> calc.div(6.0f, 0));
     }
+    @Test
+    public void testMinus() {
+        assertEquals(1.0f, calc.minus(4.0f, 3.0f));
+    }
 }
